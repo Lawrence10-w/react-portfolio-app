@@ -1,24 +1,35 @@
-const logotext = "JOHN";
+const logotext = "Lawrence";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Pethias Kasempa",
+    description: "I’m Pethias Kasempa Lawrence...Software Developer _ Full stack devloper, And I'm A final Year Student at copperbelt University",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Pethias Kasempa Lawrence",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I develop mobile apps ...Its Thor Developer ,Lets Code together",
+       
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Pethias Kasempa Lawrence, also known as the Thor Developer, is a passionate 4th-year Bachelor of Science in Computer Science student at Copperbelt University (CBU)",
+    your_img_url: require("./Images/WhatsApp_Image_2024-12-12_at_12.02.59_93051049-removebg-preview.png"),
+    
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "",
+    aboutme: `Pethias Kasempa Lawrence, also known as the Thor Developer, is a passionate 4th-year Bachelor of Science in Computer Science student at Copperbelt University (CBU). He dreams of becoming a software engineer with a specialization in software engineering. Born on May 25, 1998, in Chingola, Zambia, he is the third-born in a family of six, which includes four brothers (one of whom is late) and one sister.
+
+Pethias has diverse talents and interests:
+
+In Soccer: He is a former midfielder for Binary FC and was nicknamed Jude for his hairstyle and soccer socks. He once captained the team, leading them to win a conference league championship.
+In Music: He is a singer-songwriter performing under the name Drilz Drilet Mr Wellbaker.
+Professional Goals: He is driven by his love for coding and problem-solving, earning him the nickname Thor Developer.
+Pethias has also worked in construction, web development, and IT maintenance, showcasing his versatility and determination to excel in his pursuits.
+`,
 };
+
 const worktimeline = [{
         jobtitle: "Designer of week",
         where: "YAdfi",
@@ -38,107 +49,81 @@ const worktimeline = [{
 
 const skills = [{
         name: "Python",
-        value: 90,
+        value: 50,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "Java",
+        value: 65,
     },
     {
         name: "Javascript",
-        value: 80,
+        value: 30,
     },
     {
         name: "React",
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "C#",
+        value: 50,
     },
 ];
 
-const services = [{
+const services = [
+    {
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "We create user-friendly and visually appealing designs to enhance user experiences and interface interactions.",
     },
     {
         title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "We develop high-quality mobile applications tailored to meet your business and user needs.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "WordPress Design",
+        description: "We specialize in creating custom WordPress websites with professional and responsive designs.",
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+const dataportfolio = [
+    {
+        img: "https://www.itchronicles.com/wp-content/uploads/2018/10/bigstock-Programming-Web-Banner-Best-P-258081862.jpg",
+        description: "Programming Skills",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://th.bing.com/th/id/OIP.uEgq5197uu_RSiDb0tz52QHaEc?rs=1&pid=ImgDetMain",
+        description: "Digital Design Skills",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://txture.io/_next/image?url=%2Fasset%2Fblog%2Fpost_pics%2F7rs-of-cloud-migration.jpeg&w=3840&q=75",
+        description: "Computer Basic Skills.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://th.bing.com/th/id/R.c6a83742f7841e0e7cf850a370383fe7?rik=GW91HavwFVh%2fBw&pid=ImgRaw&r=0",
+        description: "Mobile Application Development Skills.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://cdn-az.allevents.in/events5/banners/675609739904596cabf25597e8863bf32c151497f74ea734cc52e43ee7472711-rimg-w400-h400-gmir.jpg?v=1702133713",
+        description: "Computer Networking Skills.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://w3-lab.com/wp-content/uploads/2019/12/Get-the-Most-Fancied-Web-Development-Services-min-scaled.jpg",
+        description: "Web Development Skills.",
         link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    }
 ];
+
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "pethiaskay10@gmail.com",
+    YOUR_FONE: "+260962698065",
+    description: "We deliver innovative solutions with a focus on functionality, ensuring seamless integration and optimal performance.",
+
+   
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,9 +132,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/Lawrence10-w",
+    facebook: "https://www.facebook.com/pethias.kasempa",
+    linkedin: "www.linkedin.com/in/pethias-kasempa-6a6833279",
     twitter: "https://twitter.com",
 };
 export {

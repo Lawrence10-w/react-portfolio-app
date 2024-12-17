@@ -175,22 +175,47 @@ section {
 }
 
 .intro_sec .h_bg-image .block {
+    position: absolute;
     bottom: 50vh;
+    left: -110px;
+    width: 250px;
+    height: 250px; /* Make it a perfect circle */
     max-width: 220px;
     padding: 30px;
-    left: -110px;
-    position: absolute;
-    width: 250px;
-    height: 220px;
-    border-radius: 100%;
-    /* mix-blend-mode: multiply; */
     background-color: #2f514e;
+    color: #fff; /* Ensure text is visible on the dark background */
+    border-radius: 50%; /* Ensure the shape is a circle */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
     z-index: 9999999999;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    text-align: center; /* Center align the text */
+    font-family: 'Arial', sans-serif; /* Use a clean font for readability */
+    font-size: 14px;
+
+    /* Add a subtle animation */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
+/* Add hover effect for interactivity */
+.intro_sec .h_bg-image .block:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Intensify shadow */
+    background-color: #3d6f6b; /* Slightly change color on hover */
+}
+
+/* Make it responsive for smaller screens */
+@media (max-width: 768px) {
+    .intro_sec .h_bg-image .block {
+        width: 200px;
+        height: 200px;
+        font-size: 12px;
+        bottom: 40vh; /* Adjust positioning */
+    }
+}
+
 
 @media (max-width:991.98px) {
     .intro_sec .h_bg-image {
